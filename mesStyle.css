@@ -137,7 +137,7 @@ footer {
     height: 420px;
 
     background: linear-gradient(rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)), url("images/collierr.JPG") center/cover no-repeat;
+            rgba(0, 0, 0, 0.45)), url("images/collierr.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
