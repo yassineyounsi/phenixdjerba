@@ -1,0 +1,176 @@
+Body {
+    background: #dfe6e9;
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+header {
+    background: url("images/FB_IMG_1783597629751.jpg") center/cover no-repeat;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.container {
+    background: white !important;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(rgb(0, 0, 0, .15));
+    overflow: hidden;
+}
+
+nav {
+    background: #2c3e50;
+    ;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 20px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 60px 40px;
+    min-height: 350px;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+section p {
+    line-height: 1.8;
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    background: #ecf0f1;
+    min-width: 300px;
+    flex: 1;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    display: grid;
+    /* grid-template-columns: 300px 300px 300px 300px;**/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact {
+    background: #ecf0f1;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+footer {
+    background-color: #27ae60;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-bague {
+    height: 420px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("images/header-bague.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-bague h1 {
+    font-size: 52px;
+}
+
+.header-bague p {
+    font-size: 30px;
+}
+
+.header-collier {
+    height: 420px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("images/collierr.JPG") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-collier h1 {
+    font-size: 52px;
+}
+
+.header-collier p {
+    font-size: 30px;
+}
+
+.header-bracelets {
+    height: 420px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)), url("images/bracelet.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.header-bracelets h1 {
+    font-size: 52px;
+}
+
+.header-bracelets p {
+    font-size: 30px;
+}
